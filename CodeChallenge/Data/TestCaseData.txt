@@ -1,0 +1,10 @@
+Initial URL:=https://surveyrc.taxcreditco.com/automation-challenge
+Expected URL:=https://www.experian.com/employer-services/
+
+Employee Information
+FirsName:=Joe
+LastName:=Sample
+Email:=xyztest1001@tsxcc.bg
+StreetAddress:=Street line 1
+City:=Monterey Park
+ZipCode:=91754
