@@ -20,7 +20,7 @@ export class AdditionaInformationPage{
 
         const inputValue = await this.confirmNameField.inputValue()
 
-        //Verify the name in the text field
+        //Verify the name
         expect(await this.confirmNameField.inputValue()).toEqual(fullName)
 
         await this.submitButton.click()

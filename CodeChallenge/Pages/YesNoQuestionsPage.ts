@@ -2,10 +2,6 @@ import { Locator, Page, expect } from '@playwright/test';
 
 export class YesNoQuestionPage{
  
-    ///html/body/form/div[4]/span/div[1]/div[2]/div/div/label[2]
-    ///html/body/form/div[4]/span/div[1]/div[3]/div/div/label[2]
-    ///html/body/form/div[4]/span/div[1]/div[4]/div/div/label[2]
-
     private readonly page: Page
     private readonly noButtonElements: Locator;
     private readonly nextButton: Locator

@@ -22,7 +22,6 @@ test('enter employee information', async ({ page }) => {
     //Step3
     const yesNoQuestionsPage = new YesNoQuestionPage(page)
     await yesNoQuestionsPage.clickOnNoButtons()
-    //await page.pause()
 
     //Step4
     const additionalInformationPage = new AdditionaInformationPage(page)

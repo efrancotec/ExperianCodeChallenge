@@ -21,9 +21,6 @@ export class EmployeeInfoPage{
         this.cityField = page.locator("xpath=//span[@id='SurveyControl']//div[1]//div[6]//div//div//input")
         this.zipCodeField = page.locator("xpath=//span[@id='SurveyControl']//div[1]//div[7]//div//div//input")
         this.nextButton = page.locator("xpath=//input[@id='SurveyControl_SurveySubmit']")
-
-
-        ///html/body/form/div[4]/span/div[1]/div[8]/div/input
     }
 
     async fillEmployeeInformation(employee:Employee){
